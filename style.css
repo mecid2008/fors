@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(80, 11, 192);
+    background-size: cover;
+    background-position: top center;
+}
+
+form{
+    background-color: white;
+ 
+    width: 22%;
+    text-align: center;
+    padding: 20px 0;
+  
+}
+
+form .inpDiv,form #btnDiv{
+  margin: 30px 0;
+}
+
+
+form .inpDiv input{
+    width: 80%;
+  
+    outline: none;
+    padding: 10px;
+    border: 1px solid grey ;
+    top: 500px;
+}
+
+form #btnDiv>button{
+    width: 35%;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    margin-left: 180px;
+    cursor: pointer;
+    height: 50px;
+}
+
+form .line{
+    height: 1px;
+    margin: 20px 0;
+    background-color: grey;
+
+}
+
+.inpP {
+text-align: left;
+}
+
+.InpDiv{
+    background-color: rgb(98, 192, 255);
+  
+    height: 25px;
+}
+.INpDiv{
+    color: rgb(98, 192, 255);
+  
+    height: 25px;
+}
+
+
+
+.KIT{
+    margin-left: 190px;
+}
+
+.INPdiv{
+    margin-right: 10px;
+}
+
+.KIN{
+    margin-left: 180px;
+}
+
+.img2{
+  margin-left: 830px;
+    position: absolute;
+    width: 22%;
+    height: 20%;
+    top: 100px;
+    left: 0;
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+  }
+  
+  .tabs>input[type="radio"]:checked+label {
+    background-color: #3f0bcc;
+  }
+  
+  .tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    border: 1px solid rgb(162, 8, 233);
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+  #tab-btn-1:checked~#content-1,
+  #tab-btn-2:checked~#content-2,
+  #tab-btn-3:checked~#content-3 {
+      width: 40px;
+    display: block;
+  }
+  
+  .tabs>label {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: rgb(240, 238, 238);
+    border: 1px solid transparent;
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-right: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .tabs>label:first-of-type {
+    margin-left: 0;
+  }
+
+  P{
+      text-align: left;
+  }
